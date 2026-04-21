@@ -21,5 +21,7 @@ A modern Pomodoro-based focus timer designed to improve productivity by tracking
 🛠 Tech Stack
 
 HTML
+
 CSS
+
 JavaScript
