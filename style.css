@@ -1,0 +1,87 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: white;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Card */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    width: 320px;
+}
+
+/* Title */
+h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Timer */
+#timer {
+    font-size: 65px;
+    margin: 20px 0;
+    font-weight: bold;
+}
+
+/* Buttons */
+.buttons button {
+    padding: 12px 18px;
+    margin: 8px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Individual button colors */
+.buttons button:nth-child(1) {
+    background: #00c853;
+    color: white;
+}
+
+.buttons button:nth-child(2) {
+    background: #ffd600;
+}
+
+.buttons button:nth-child(3) {
+    background: #ff1744;
+    color: white;
+}
+
+/* Hover effect */
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Study Time */
+h3 {
+    margin-top: 20px;
+}
+
+/* Progress Bar */
+.progress-container {
+    background: rgba(255,255,255,0.2);
+    border-radius: 10px;
+    height: 10px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 100%;
+    width: 0%;
+    background: #00e5ff;
+    transition: width 1s linear;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Timer</title>
+
+```
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+```
+
+</head>
+
+<body>
+
+```
+<div class="container">
+    <h1>⏱ Focus Timer</h1>
+
+    <p>Stay focused. Build your future 🚀</p>
+
+    <h2 id="timer">25:00</h2>
+
+    <!-- Progress Bar -->
+    <div class="progress-container">
+        <div class="progress" id="progressBar"></div>
+    </div>
+
+    <!-- Buttons -->
+    <div class="buttons">
+        <button onclick="startTimer()">▶ Start</button>
+        <button onclick="pauseTimer()">⏸ Pause</button>
+        <button onclick="resetTimer()">🔄 Reset</button>
+    </div>
+
+    <h3>Total Study Time: <span id="studyTime">0</span> min</h3>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+```
+
+</body>
+</html>
