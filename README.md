@@ -2,7 +2,6 @@
 
 🔗 Live Demo: https://sushanthreddy-c.github.io/focus-timer/
 
-📂 GitHub Repo: https://github.com/sushanthreddy-c/focus-timer
 
 📌 Description
 
